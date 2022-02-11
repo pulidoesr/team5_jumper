@@ -1,6 +1,7 @@
 import random
 from game.terminal_service import TerminalService
 
+
 class Puzzle:
     """The player looking for the letters . 
     
@@ -73,3 +74,4 @@ class Puzzle:
         if self._guessword == self._word:
            self._continue = False
         return self._continue
+
